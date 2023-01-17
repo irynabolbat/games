@@ -1,0 +1,16 @@
+:root {
+    user-select: none;
+    overflow-x: hidden;
+    --btn-background: #0377fc;
+    --background-color: #99c3f3;
+    --background-color-light: #e2f1ff;
+    --btn-hover: #0390fc;
+    --border-color: blue;
+    --text-main: black;
+    --text-secondary: white;
+    --title-color: -webkit-linear-gradient(-45deg, rgba(3, 119, 252, 0.78), #274685);
+    --border-radius-btn: 25px;
+    --color-red: #b40b0b;
+    --color-grey: hsl(213, 30%, 29%);
+    --color-grey-light: hsl(213, 30%, 59%);
+}

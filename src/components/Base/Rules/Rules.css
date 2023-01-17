@@ -1,0 +1,13 @@
+.game_rules_title {
+    font-size: 35px !important;
+}
+
+.game_rules_container {
+    margin-top: 3%;
+    text-align: start;
+    list-style: "🧠";
+}
+
+.game_rules_container li:hover {
+    list-style: "🤯";
+}

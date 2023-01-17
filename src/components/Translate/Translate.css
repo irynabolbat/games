@@ -1,0 +1,6 @@
+.translate_wrapper {
+    display: flex;
+    justify-content: end;
+    margin-right: 10%;
+    margin-top: 3%;
+}

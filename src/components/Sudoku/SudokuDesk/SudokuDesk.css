@@ -1,0 +1,39 @@
+.sudoku_desk_wrapper {
+    display: grid;
+    width: 80%;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    color: grey;
+    margin: 0 10%;
+}
+
+.sudoku_all_tools {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mob_timer {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sudoku_desk_wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sudoku_all_tools {
+        width: 100%;
+    }
+
+    .mob_timer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .web_timer {
+        display: none;
+    }
+}

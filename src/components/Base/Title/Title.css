@@ -1,0 +1,29 @@
+.title_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.game_title {
+    font-size: 55px;
+    background: var(--title-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0 !important;
+    line-height: 1.5 !important;
+}
+
+.emoji_icon {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 585px) {
+    .title_wrapper {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .emoji_icon {
+        font-size: 35px;
+    }
+}

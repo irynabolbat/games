@@ -1,0 +1,60 @@
+.card_wrapper {
+    display: flex;
+    height: 200px;
+    border: 1px solid var(--border-color);
+    align-items: center;
+    justify-content: center;
+    margin: 4% 0;
+    border-radius: var(--border-radius-btn);
+    background-color: var(--btn-hover);
+    animation: 2s hideCard linear;
+}
+
+.card_wrapper_middle {
+    height: 160px;
+}
+
+.card_wrapper_hard {
+    height: 120px;
+}
+
+.card_img {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius-btn);
+    opacity: 0;
+    animation: 2s hideImage linear;
+}
+
+.card_wrapper.active .card_img {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.card_wrapper.active {
+    transform: rotateY(0);
+}
+
+@keyframes hideCard {
+    0%, 70% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(180deg);
+    }
+}
+
+@keyframes hideImage {
+    0%, 84% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .card_wrapper {
+        height: 90%;
+    }
+}

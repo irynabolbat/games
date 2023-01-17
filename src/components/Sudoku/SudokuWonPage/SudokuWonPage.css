@@ -1,0 +1,11 @@
+.sudoku_won_page_wrapper {
+    margin-top: 3%;
+}
+
+.sudoku_won_title {
+    font-size: 30px !important;
+}
+
+.won_sudoku_info {
+    font-size: 25px;
+}
