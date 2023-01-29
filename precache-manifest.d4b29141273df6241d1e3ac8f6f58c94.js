@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "35aac690cfdf2c8b69b5",
-    "url": "/games/static/css/main.126b7af2.chunk.css"
+    "revision": "554f27ee8a977bdfb2e7",
+    "url": "/games/static/css/main.a9dbec4e.chunk.css"
   },
   {
-    "revision": "35aac690cfdf2c8b69b5",
-    "url": "/games/static/js/main.35aac690.chunk.js"
+    "revision": "554f27ee8a977bdfb2e7",
+    "url": "/games/static/js/main.554f27ee.chunk.js"
   },
   {
-    "revision": "0175a56d7ad777018231",
-    "url": "/games/static/css/1.1aba6b7f.chunk.css"
+    "revision": "c683109bd1008f53a58d",
+    "url": "/games/static/css/1.4cc3485a.chunk.css"
   },
   {
-    "revision": "0175a56d7ad777018231",
-    "url": "/games/static/js/1.0175a56d.chunk.js"
+    "revision": "c683109bd1008f53a58d",
+    "url": "/games/static/js/1.c683109b.chunk.js"
   },
   {
     "revision": "9061fa9166f9142481fd",
@@ -192,7 +192,7 @@ self.__precacheManifest = [
     "url": "/games/static/media/pointing_triples_2.c0ebd90d.png"
   },
   {
-    "revision": "9042d22abca4c964203ebd4d39ecc445",
+    "revision": "bcd20c36f9a7869f1b612ea71122cd0e",
     "url": "/games/index.html"
   }
 ];
