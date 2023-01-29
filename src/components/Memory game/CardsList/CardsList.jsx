@@ -71,9 +71,7 @@ const CardsList = () => {
         navigate("/memory_game/won_page")
         setTimeHistory(`${time.h >= 10 ? time.h : "0" + time.h}:${time.m >= 10 ? time.m : "0" + time.m}:${time.s >= 10 ? time.s : "0" + time.s}:${time.ms >= 10 ? time.ms : "0" + time.ms}`)
         reset()
-        cards.map((el) => {
-            el.status = ""
-        })
+        cards.map((el) => el.status = "")
     }
 
     const clickHandler = (index) => {
