@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c54603fe-15db-460a-b315-07024a40666e" name="Changes" comment="">
+    <list default="true" id="c54603fe-15db-460a-b315-07024a40666e" name="Changes" comment="added pwa">
+      <change afterPath="$PROJECT_DIR$/src/serviceWokerRegistrarion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Base/Title/Title.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Base/Title/Title.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Memory game/Card/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/Card/Card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/GameSection/GameSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/GameSection/GameSection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/GameSection/GameSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/GameSection/GameSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/SudokuDesk/SudokuDesk.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/SudokuDesk/SudokuDesk.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/SudokuTools/SudokuTools.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/SudokuTools/SudokuTools.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Timer/Timer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Timer/Timer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Timer/Timer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Timer/Timer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +71,23 @@
       <workItem from="1673256473822" duration="10033000" />
       <workItem from="1673784385896" duration="1663000" />
       <workItem from="1673942228214" duration="8665000" />
-      <workItem from="1674992281094" duration="4003000" />
+      <workItem from="1674992281094" duration="4907000" />
     </task>
+    <task id="LOCAL-00001" summary="changed styles">
+      <created>1675003165212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675003165212</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added pwa">
+      <created>1675003629995</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675003629995</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +103,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed styles" />
+    <MESSAGE value="added pwa" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pwa" />
   </component>
 </project>
