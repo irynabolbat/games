@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c54603fe-15db-460a-b315-07024a40666e" name="Changes" comment="added pwa">
+    <list default="true" id="c54603fe-15db-460a-b315-07024a40666e" name="Changes" comment="improved">
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service-worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/HintsModal/HintsModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/HintsModal/HintsModal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/local-storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/local-storage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
       <workItem from="1673784385896" duration="1663000" />
       <workItem from="1673942228214" duration="8665000" />
       <workItem from="1674992281094" duration="5174000" />
-      <workItem from="1675007260014" duration="1215000" />
+      <workItem from="1675007260014" duration="3500000" />
     </task>
     <task id="LOCAL-00001" summary="changed styles">
       <created>1675003165212</created>
@@ -96,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675007032438</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="improved">
+      <created>1675008930385</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675008930385</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed styles" />
     <MESSAGE value="added pwa" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pwa" />
+    <MESSAGE value="improved" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved" />
   </component>
 </project>

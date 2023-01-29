@@ -14,7 +14,6 @@
 .cards_list_wrapper {
     display: grid;
     width: 60%;
-    height: 100%;
     min-width: 300px;
     align-items: center;
     grid-template-columns: 32% 32% 32%;
