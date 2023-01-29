@@ -14,4 +14,4 @@ root.render(
     </Router>
 );
 
-// serviceWokerRegistration.register()
+serviceWokerRegistration.register()
