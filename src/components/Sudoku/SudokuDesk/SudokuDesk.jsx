@@ -93,11 +93,11 @@ const SudokuDesk = () => {
 
     useEffect(() => {
         start()
-        document.getElementById("sudoku_desk_wrapper").scrollIntoView();
+        document.getElementById("sudoku_game_section").scrollIntoView();
     }, [])
 
     return (
-        <div className="sudoku_desk_wrapper" id={"sudoku_desk_wrapper"}>
+        <div className="sudoku_desk_wrapper">
             <div className="mob_timer"><Timer/></div>
             <GameSection gameArray={gameArray} initArray={initArray} onClick={handleCelledClick}
                          cellSelected={cellSelected} solvedArray={solvedArray}/>

@@ -86,7 +86,7 @@ const GameSection = ({gameArray = [], initArray, cellSelected, onClick, solvedAr
         }
 
         return (
-            <section className="game">
+            <section className="game" id="sudoku_game_section">
                 <table className="game__board">
                     <tbody>
                     {

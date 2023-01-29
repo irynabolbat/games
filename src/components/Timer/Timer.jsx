@@ -24,9 +24,7 @@ const Timer = () => {
             }
 
             {status === 2
-                ? < div className="timer_btns_container">
-                    <button className="timer_button" onClick={resume}><PlayFill className="timer_icon"/></button>
-                </div>
+                ? <button className="timer_button" onClick={resume}><PlayFill className="timer_icon"/></button>
                 : ""
             }
         </div>

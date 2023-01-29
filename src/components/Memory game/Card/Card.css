@@ -55,6 +55,6 @@
 
 @media screen and (max-width: 540px) {
     .card_wrapper {
-        height: 90%;
+        height: 180px;
     }
 }

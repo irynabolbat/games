@@ -26,4 +26,10 @@
     .emoji_icon {
         font-size: 35px;
     }
+
+    .game_title {
+        font-size: 45px;
+        line-height: 1.2 !important;
+        margin-bottom: 5% !important;
+    }
 }

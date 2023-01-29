@@ -27,16 +27,14 @@
     color: var(--btn-background);
 }
 
-.timer_btns_container {
-    display: flex;
-    gap: 5%;
-}
-
 .timer_button {
     background-color: var(--btn-background);
     border: 1px solid var(--border-color);
     border-radius: 15%;
     width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .timer_icon {

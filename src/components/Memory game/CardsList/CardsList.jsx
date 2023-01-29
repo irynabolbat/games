@@ -91,7 +91,7 @@ const CardsList = () => {
 
     useEffect(() => {
         start()
-        document.getElementById("timer").scrollIntoView();
+        document.getElementById("cards_list_wrapper").scrollIntoView();
     }, [])
 
     return (
@@ -99,7 +99,7 @@ const CardsList = () => {
             <div className="memory_game_info">{t("Clk")} <span>{click}</span></div>
             <div className="memory_game_info">{t("Same cards:")} <span>{sameCards}</span></div>
             <Timer/>
-            <div className={className}>
+            <div className={className} id="cards_list_wrapper">
                 {cards.map((card, index) => {
                     return <Card card={card} key={index} index={index} clickHandler={clickHandler}/>
                 })}
