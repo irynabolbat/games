@@ -57,4 +57,12 @@
     .card_wrapper {
         height: 180px;
     }
+
+    .card_wrapper_middle {
+        height: 130px;
+    }
+
+    .card_wrapper_hard {
+        height: 100px;
+    }
 }

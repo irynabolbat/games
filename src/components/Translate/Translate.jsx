@@ -6,7 +6,7 @@ import {Outlet} from "react-router";
 
 const Translate = () => {
     const [active, setActive] = useState(false)
-    const [language, setLanguage] = useLocalStorage("language", 'en')
+    const [language, setLanguage] = useLocalStorage("language", language)
 
     const handleLanguageChange = (lng) => {
         i18n.changeLanguage(lng)

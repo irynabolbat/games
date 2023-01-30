@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c54603fe-15db-460a-b315-07024a40666e" name="Changes" comment="improved">
-      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service-worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Memory game/Card/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/Card/Card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Memory game/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/Card/Card.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Memory game/MemoryGameLevels/MemoryGameLevels.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/MemoryGameLevels/MemoryGameLevels.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/GameSection/GameCell.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/GameSection/GameCell.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/GameSection/GameSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/GameSection/GameSection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/HintsModal/HintsModal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/HintsModal/HintsModal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/SudokuNumbers/SudokuNumbers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/SudokuNumbers/SudokuNumbers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Translate/Translate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Translate/Translate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trans/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Translate/trans/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trans/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Translate/trans/ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trans/ua.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Translate/trans/ua.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +54,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Translate" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -75,7 +89,7 @@
       <workItem from="1673784385896" duration="1663000" />
       <workItem from="1673942228214" duration="8665000" />
       <workItem from="1674992281094" duration="5174000" />
-      <workItem from="1675007260014" duration="3500000" />
+      <workItem from="1675007260014" duration="7249000" />
     </task>
     <task id="LOCAL-00001" summary="changed styles">
       <created>1675003165212</created>
@@ -105,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675008930385</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="improved">
+      <created>1675023879017</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675023879018</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

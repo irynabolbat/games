@@ -3,7 +3,7 @@ import "./Card.css"
 import {useOutletContext} from "react-router-dom";
 
 const Card = ({card, index, clickHandler}) => {
-    const {cardsNumber} = useOutletContext()
+    const {cardsNumber, status} = useOutletContext()
 
     const itemClass = card.status ? " active " + card.status : ""
     let className = "card_wrapper"
@@ -14,12 +14,12 @@ const Card = ({card, index, clickHandler}) => {
     if (cardsNumber === 6) {
         className = "card_wrapper card_wrapper_middle"
     }
-    if (cardsNumber === 10) {
+    if (cardsNumber === 9) {
         className = "card_wrapper card_wrapper_hard"
     }
 
     return (
-        <div key={card.id} className={`${className} ${itemClass}`} onClick={() => clickHandler(index)}>
+        <div key={card.id} className={`${className} ${itemClass}`} onClick={status === 2 ? "" : () => clickHandler(index)}>
             <img src={card.image} alt={card.name} className="card_img"/>
         </div>
     );

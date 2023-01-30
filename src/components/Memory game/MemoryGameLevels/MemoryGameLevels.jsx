@@ -16,7 +16,7 @@ const MemoryGameLevels = () => {
         } else if (difficultyLevel === "Medium") {
             setCardsNumber(6)
         } else if (difficultyLevel === "Hard") {
-            setCardsNumber(10)
+            setCardsNumber(9)
         }
 
         setLevel(level)

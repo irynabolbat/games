@@ -34,7 +34,7 @@ const CardsList = () => {
     if (cardsNumber === 6) {
         className = "cards_list_wrapper cards_list_wrapper_middle"
     }
-    if (cardsNumber === 10) {
+    if (cardsNumber === 9) {
         className = "cards_list_wrapper cards_list_wrapper_hard"
     }
 

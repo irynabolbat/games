@@ -41,14 +41,15 @@
 }
 
 .close_icon_hints_modal_wrapper {
-    float: right;
     cursor: pointer;
-    width: 4%;
+    width: 100%;
 }
 
 .close_icon_hints_modal {
     width: 25px;
     height: 25px;
+    float: right;
+    color: var(--color-red);
 }
 
 .hint_wrapper {
@@ -75,4 +76,19 @@
 
 .hint_img {
     width: 20%;
+}
+
+@media screen and (max-width: 768px) {
+    .hint_main_img {
+        width: 70%;
+    }
+
+    .hint_img_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hint_img {
+        width: 70%;
+    }
 }

@@ -16,3 +16,7 @@
 .status__number .status__number--selected {
     color: var(--btn-background);
 }
+
+.status__number:hover {
+    background-color: var(--background-color-light);
+}
