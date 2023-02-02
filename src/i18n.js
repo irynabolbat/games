@@ -4,6 +4,7 @@ import ua from "./components/Translate/trans/ua.json"
 
 import {initReactI18next} from "react-i18next";
 import i18n from 'i18next'
+import {getUserLanguage} from "./helpers";
 
 const resources = {
     en: {
@@ -21,8 +22,8 @@ i18n
     .use(initReactI18next)
     .init({
         resources,
-        lng: JSON.parse(localStorage.getItem('language')),
-        fallbackLng: 'ru'
+        lng: localStorage.getItem('language'),
+        fallbackLng: getUserLanguage()
     })
 
 export default i18n;

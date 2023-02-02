@@ -1,18 +1,20 @@
 import React, {useState} from 'react';
 import "./Translate.css"
-import useLocalStorage from "../../hooks/local-storage";
 import i18n from "../../i18n";
 import {Outlet} from "react-router";
+import {getUserLanguage} from "../../helpers";
 
 const Translate = () => {
-    const [active, setActive] = useState(false)
-    const [language, setLanguage] = useLocalStorage("language", language)
-
+    const [active, setActive] = useState(false);
+    const userLanguage = localStorage.getItem("language") || getUserLanguage();
+    const [language, setLanguage] = useState(userLanguage)
     const handleLanguageChange = (lng) => {
+        localStorage.setItem("language", lng);
         i18n.changeLanguage(lng)
         setLanguage(lng)
         setActive(false)
     }
+
     return (
         <>
             <div className="translate_wrapper">
