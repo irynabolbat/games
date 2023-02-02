@@ -1,10 +1,10 @@
 {
   "main.css": "/games/static/css/main.ef038bfa.chunk.css",
-  "main.js": "/games/static/js/main.bc3acfba.chunk.js",
-  "main.js.map": "/games/static/js/main.bc3acfba.chunk.js.map",
+  "main.js": "/games/static/js/main.9cb5eb0d.chunk.js",
+  "main.js.map": "/games/static/js/main.9cb5eb0d.chunk.js.map",
   "static/css/1.4cc3485a.chunk.css": "/games/static/css/1.4cc3485a.chunk.css",
-  "static/js/1.c683109b.chunk.js": "/games/static/js/1.c683109b.chunk.js",
-  "static/js/1.c683109b.chunk.js.map": "/games/static/js/1.c683109b.chunk.js.map",
+  "static/js/1.557fd1df.chunk.js": "/games/static/js/1.557fd1df.chunk.js",
+  "static/js/1.557fd1df.chunk.js.map": "/games/static/js/1.557fd1df.chunk.js.map",
   "runtime~main.js": "/games/static/js/runtime~main.9061fa91.js",
   "runtime~main.js.map": "/games/static/js/runtime~main.9061fa91.js.map",
   "static/media/memoryGame.png": "/games/static/media/memoryGame.305e3a87.png",
@@ -53,6 +53,6 @@
   "static/css/main.ef038bfa.chunk.css.map": "/games/static/css/main.ef038bfa.chunk.css.map",
   "static/css/1.4cc3485a.chunk.css.map": "/games/static/css/1.4cc3485a.chunk.css.map",
   "index.html": "/games/index.html",
-  "precache-manifest.8f18ce406359deb8c4cfa216ec701a9f.js": "/games/precache-manifest.8f18ce406359deb8c4cfa216ec701a9f.js",
+  "precache-manifest.24b29058d4471a11504d943c2d56736e.js": "/games/precache-manifest.24b29058d4471a11504d943c2d56736e.js",
   "service-worker.js": "/games/service-worker.js"
 }
