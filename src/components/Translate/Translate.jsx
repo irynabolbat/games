@@ -5,8 +5,8 @@ import {Outlet} from "react-router";
 import {getUserLanguage} from "../../helpers";
 
 const Translate = () => {
-    const [active, setActive] = useState(false);
-    const userLanguage = localStorage.getItem("language") || getUserLanguage();
+    const [active, setActive] = useState(false)
+    const userLanguage = localStorage.getItem("language") || getUserLanguage()
     const [language, setLanguage] = useState(userLanguage)
     const handleLanguageChange = (lng) => {
         localStorage.setItem("language", lng);

@@ -30,7 +30,7 @@ const RulesModal = ({active, setActive}) => {
                     <XCircle className="close_icon"/>
                 </div>
                 {
-                    location.pathname === "/memory_game"
+                    location.pathname === "/memory_game" || location.pathname === "/memory_game/levels" || location.pathname === "/memory_game/play" || location.pathname === "/memory_game/won_page"
                         ? <Rules title={t("Rules of memory game:")} arrOfRules={memoryGameRules}/>
                         : <Rules title={t("Rules of sudoku:")} arrOfRules={sudokuRules}/>
                 }

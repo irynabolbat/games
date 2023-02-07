@@ -19,7 +19,7 @@ const Card = ({card, index, clickHandler}) => {
     }
 
     return (
-        <div key={card.id} className={`${className} ${itemClass}`} onClick={status === 2 ? "" : () => clickHandler(index)}>
+        <div key={card.id} className={`${className} ${itemClass}`} onClick={status === 2 ? null : () => clickHandler(index)}>
             <img src={card.image} alt={card.name} className="card_img"/>
         </div>
     );

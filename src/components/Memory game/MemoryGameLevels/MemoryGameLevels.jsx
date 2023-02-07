@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
 import {useNavigate, useOutletContext} from "react-router-dom";
 import Levels from "../../Base/Levels/Levels";
+import {showCards} from "../../../cards";
 
 
 const MemoryGameLevels = () => {
-    const {setCardsNumber, start, reset, setClick, setSameCards} = useOutletContext()
+    const {setCardsNumber, start, reset, setClick, setSameCards, cardsNumber} = useOutletContext()
     const [level, setLevel] = useState("Choose your level:")
     const [active, setActive] = useState(false)
 
@@ -25,6 +26,7 @@ const MemoryGameLevels = () => {
 
     const startGame = () => {
         navigate("/memory_game/play")
+        showCards(cardsNumber).map(el => el.status = "")
         setClick(0)
         setSameCards(0)
         reset()

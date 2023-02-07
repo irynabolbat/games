@@ -76,6 +76,11 @@ const MemoryGame = ({children}) => {
         reset()
     }
 
+    const startNewGame = () => {
+        reset()
+        navigate('/memory_game/levels')
+    }
+
     return (
         <div className="memory_game_wrapper">
             <Title titleText={t("Memory game")}/>
@@ -83,7 +88,7 @@ const MemoryGame = ({children}) => {
                 <Button click={openHomePage} btnText={t("Home")}/>
                 <Button click={() => setModalActive(true)} btnText={t("Rules")}/>
                 <RulesModal active={modalActive} setActive={setModalActive}/>
-                <Button click={() => navigate('/memory_game/levels')} btnText={t("New game")}/>
+                <Button click={startNewGame} btnText={t("New game")}/>
             </div>
             {children}
             <Outlet context={{

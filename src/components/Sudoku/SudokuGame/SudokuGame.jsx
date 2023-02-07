@@ -46,7 +46,6 @@ const SudokuGame = ({children}) => {
         if (!interv) {
             setStatus(1)
             const intervalId = setInterval(run, 10);
-            console.log(intervalId);
             setInterv(intervalId)
         }
     }

@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c54603fe-15db-460a-b315-07024a40666e" name="Changes" comment="improved styles, timer and languages">
+    <list default="true" id="c54603fe-15db-460a-b315-07024a40666e" name="Changes" comment="improved languages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Memory game/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/Card/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/CardsList/CardsList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Memory game/MemoryGame/MemoryGame.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/MemoryGame/MemoryGame.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Memory game/MemoryGameLevels/MemoryGameLevels.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/MemoryGameLevels/MemoryGameLevels.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Memory game/MemoryGameWonPage/MemoryGameWonPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memory game/MemoryGameWonPage/MemoryGameWonPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RulesModal/RulesModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RulesModal/RulesModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/GameSection/GameCell.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/GameSection/GameCell.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/GameSection/GameSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/GameSection/GameSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/SudokuDesk/SudokuDesk.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/SudokuDesk/SudokuDesk.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/SudokuGame/SudokuGame.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/SudokuGame/SudokuGame.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/SudokuNumbers/SudokuNumbers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/SudokuNumbers/SudokuNumbers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/SudokuNumbers/SudokuNumbers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/SudokuNumbers/SudokuNumbers.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sudoku/SudokuWonPage/SudokuWonPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sudoku/SudokuWonPage/SudokuWonPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Translate/Translate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Translate/Translate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +89,7 @@
       <workItem from="1673784385896" duration="1663000" />
       <workItem from="1673942228214" duration="8665000" />
       <workItem from="1674992281094" duration="5174000" />
-      <workItem from="1675007260014" duration="9175000" />
+      <workItem from="1675007260014" duration="34791000" />
     </task>
     <task id="LOCAL-00001" summary="changed styles">
       <created>1675003165212</created>
@@ -122,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675079721324</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="improved languages">
+      <created>1675361136346</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675361136347</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +162,7 @@
     <MESSAGE value="added pwa" />
     <MESSAGE value="improved" />
     <MESSAGE value="improved styles, timer and languages" />
-    <option name="LAST_COMMIT_MESSAGE" value="improved styles, timer and languages" />
+    <MESSAGE value="improved languages" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved languages" />
   </component>
 </project>

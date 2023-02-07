@@ -44,6 +44,7 @@ const GameSection = ({gameArray = [], initArray, cellSelected, onClick, solvedAr
                 indexOfArray: indexOfArray,
                 selectCell: onClick,
                 value: value,
+                key: indexOfArray
             }
 
             if (value !== "0") {
@@ -67,6 +68,7 @@ const GameSection = ({gameArray = [], initArray, cellSelected, onClick, solvedAr
                 indexOfArray: indexOfArray,
                 selectCell: onClick,
                 value: value,
+                key: indexOfArray
             }
             if (value !== "0") {
                 if (initArray[indexOfArray] === "0") {

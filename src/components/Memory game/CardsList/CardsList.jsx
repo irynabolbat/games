@@ -68,23 +68,30 @@ const CardsList = () => {
     }
 
     const wonGame = () => {
-        navigate("/memory_game/won_page")
+        navigate("/memory_game/won_page", {
+            state: {
+                gameStatus: "won"
+            }
+        })
         setTimeHistory(`${time.h >= 10 ? time.h : "0" + time.h}:${time.m >= 10 ? time.m : "0" + time.m}:${time.s >= 10 ? time.s : "0" + time.s}:${time.ms >= 10 ? time.ms : "0" + time.ms}`)
         reset()
         cards.map((el) => el.status = "")
     }
 
     const clickHandler = (index) => {
-        setClick(click + 1)
-        if (prevState === -1) {
-            cards[index].status = "active"
-            setCardsLocalStorage([...cards])
-            setPrevState(index)
+        if (cards[index].status === "correct") {
+            return null
         } else {
-            checkCards(index)
-            setCardsLocalStorage([...cards])
+            setClick(click + 1)
+            if (prevState === -1) {
+                cards[index].status = "active"
+                setCardsLocalStorage([...cards])
+                setPrevState(index)
+            } else {
+                checkCards(index)
+                setCardsLocalStorage([...cards])
+            }
         }
-        console.log(cards.filter(el => el.status === "active"))
     }
 
     useEffect(() => {
