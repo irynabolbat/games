@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9cb5eb0dc9a55d1d20cf",
-    "url": "/games/static/css/main.ef038bfa.chunk.css"
+    "revision": "fc7e8ae726cfa698fbcd",
+    "url": "/games/static/css/main.ab00b168.chunk.css"
   },
   {
-    "revision": "9cb5eb0dc9a55d1d20cf",
-    "url": "/games/static/js/main.9cb5eb0d.chunk.js"
+    "revision": "fc7e8ae726cfa698fbcd",
+    "url": "/games/static/js/main.fc7e8ae7.chunk.js"
   },
   {
     "revision": "557fd1df727e268fa4bb",
@@ -18,14 +18,6 @@ self.__precacheManifest = [
   {
     "revision": "9061fa9166f9142481fd",
     "url": "/games/static/js/runtime~main.9061fa91.js"
-  },
-  {
-    "revision": "305e3a8735d493fd032199d67c47cc44",
-    "url": "/games/static/media/memoryGame.305e3a87.png"
-  },
-  {
-    "revision": "09323ae0d472eb0ccf494bcbb4baa5f7",
-    "url": "/games/static/media/sudoku.09323ae0.png"
   },
   {
     "revision": "ed03f3560ba636bcd8b77917b59c6b39",
@@ -74,6 +66,14 @@ self.__precacheManifest = [
   {
     "revision": "b5a144b9ddc2468be6ba86413298d8f8",
     "url": "/games/static/media/rhinoceros.b5a144b9.png"
+  },
+  {
+    "revision": "305e3a8735d493fd032199d67c47cc44",
+    "url": "/games/static/media/memoryGame.305e3a87.png"
+  },
+  {
+    "revision": "09323ae0d472eb0ccf494bcbb4baa5f7",
+    "url": "/games/static/media/sudoku.09323ae0.png"
   },
   {
     "revision": "cfa9fdd330c591303c6163157b164feb",
@@ -192,7 +192,7 @@ self.__precacheManifest = [
     "url": "/games/static/media/pointing_triples_2.c0ebd90d.png"
   },
   {
-    "revision": "77b063f1f387b1290c8037836f8fa748",
+    "revision": "6a1615118a57dc4397f71184810a2e44",
     "url": "/games/index.html"
   }
 ];
