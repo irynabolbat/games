@@ -1,1 +1,1 @@
-Demo: https://irinabolbat.github.io/games/
+Demo: https://irynabolbat.github.io/games/
